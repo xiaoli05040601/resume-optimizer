@@ -1,0 +1,105 @@
+{
+  "skill_name": "super-resume",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我针对这个 JD 定制我的简历。\n\n---\n【岗位 JD】\n**字节跳动 — 产品经理（抖音电商，P6/P7）**\n\n岗位职责：\n1. 负责抖音电商平台的商家运营工具产品设计，提升商家经营效率\n2. 深度理解商家侧需求，构建系统性产品方案\n3. 与算法、工程、运营团队紧密协作，推动产品从 0 到 1 落地\n4. 基于数据分析持续优化产品指标（GMV、转化率、商家留存）\n\n任职要求：\n- 3年以上电商/SaaS 产品经理经验\n- 有 C 端或商家侧产品经验，熟悉电商业务链路\n- 强数据分析能力，熟悉 SQL 或 Python 数据工具\n- 优秀的跨部门沟通和项目推进能力\n- 加分项：有直播电商产品经验；有 0-1 产品孵化经验\n\n---\n【我的背景材料】\n\n姓名：李小雨\n联系方式：lixiaoyu@gmail.com | 微信：lxy2024 | 上海\n\n教育背景：\n- 复旦大学，信息管理与信息系统，本科，2018年毕业，GPA 3.6/4.0\n\n工作经历：\n1. 拼多多（2021年3月—至今，产品经理）\n   - 负责拼多多商家后台的营销工具产品线，包括拼单活动、限时秒杀等促销工具\n   - 主导了「智能出价」功能的从零到一，上线后商家广告 ROI 提升 23%，GMV 增长 18%\n   - 通过 SQL + Tableau 搭建商家经营健康度看板，日活商家数提升 15%\n   - 协调算法、前端、后端团队共 12 人，按时交付迭代需求\n\n2. 某 SaaS 公司（2018年7月—2021年2月，产品实习/初级PM）\n   - 负责 CRM 产品的客户模块设计\n   - 参与了一个 0-1 项目：帮助中小企业做数字化转型工具\n\n技能：\n- SQL（熟练），Python（基础，会用 pandas/numpy），Axure，Figma，JIRA\n- 英语：CET-6，能阅读英文文档，口语一般\n- 了解直播电商，有个人抖音号做过带货测试（不算专业经历）",
+      "expected_output": "完成完整流程：解析 JD 和个人材料，生成匹配分析表，引导补充缺失信息，生成格式完整的 Markdown 简历，进行 Self-awareness 分析和模拟用人方评价，提出具体修改建议，生成最终版本，并询问导出格式。",
+      "files": [],
+      "assertions": [
+        {
+          "id": "has-match-analysis-table",
+          "text": "输出中包含 JD 要求与个人材料的匹配分析（表格或列表形式，标明匹配度）"
+        },
+        {
+          "id": "has-complete-resume-sections",
+          "text": "生成了完整的 Markdown 简历，包含基础信息、教育背景、工作经历、技能至少 4 个板块"
+        },
+        {
+          "id": "resume-has-quantified-achievements",
+          "text": "简历工作经历中保留了具体数字（23%、18%、15%、12 人等）"
+        },
+        {
+          "id": "jd-keywords-in-resume",
+          "text": "简历中包含 JD 核心关键词（如 GMV、商家运营、0-1、数据分析等）"
+        },
+        {
+          "id": "has-self-awareness-analysis",
+          "text": "输出中包含 Self-awareness 分析和模拟招聘方视角的评价"
+        },
+        {
+          "id": "mentions-info-gaps-or-questions",
+          "text": "输出中列出了需要用户补充的信息或问题"
+        },
+        {
+          "id": "live-commerce-addressed",
+          "text": "分析或简历中处理了直播电商加分项（个人抖音号带货经历），无论是纳入简历还是给出建议"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "我想报名参加 Google DeepMind x Kaggle 的 AI Hackathon，帮我准备报名材料。\n\n---\n【活动信息】\n**Google DeepMind x Kaggle AI Hackathon 2025**\n\n活动目标：利用 Google 的 Gemini API 和 AI 工具解决实际问题，打造可演示的 AI 应用原型\n\n参赛要求：\n- 个人或 2-4 人团队\n- 提交内容：项目 idea 说明（500字以内）、参赛者背景介绍、技术栈说明\n- 评判标准：创新性（30%）、技术可行性（30%）、实际影响力（25%）、演示质量（15%）\n- 特别加分：使用 Gemini API、Google Cloud 服务、在医疗/教育/可持续发展领域有应用\n\n报名表需要填写：\n1. 参赛者简介（150字以内）\n2. 技术背景（主要技能和经历）\n3. 项目 idea 提案\n4. 为什么适合参加这个活动\n\n---\n【我的背景】\n名字：张伟\n职业：机器学习工程师，某 AI 创业公司，工作 2 年\n\n技术栈：Python（精通），PyTorch（熟练），Hugging Face Transformers，FastAPI，Docker，有 Gemini API 使用经验（个人项目），熟悉 LLM fine-tuning\n\n项目经历：\n- 在公司做过医疗影像分析的 AI 模型（X光片异常检测，准确率 94%）\n- 个人项目：用 GPT-4 做了一个英语学习对话机器人（500+ 用户）\n- 参加过 Kaggle 竞赛，有一个 Top 15% 的成绩\n\n教育：上海交通大学，计算机科学，硕士，2022年毕业\n\n想做的方向：AI 辅助医疗诊断，或者 AI 教育工具",
+      "expected_output": "针对 Hackathon 报名场景，完成材料准备：解析活动要求和评判标准，分析个人背景与活动要求的匹配度，补充关键信息，生成完整的报名材料（参赛者简介、技术背景、项目提案），进行匹配度分析，最终输出可直接复制使用的报名文字材料。",
+      "files": [],
+      "assertions": [
+        {
+          "id": "has-participant-bio",
+          "text": "生成了参赛者简介，且篇幅控制在 150 字以内"
+        },
+        {
+          "id": "has-project-proposal",
+          "text": "生成了具体的项目 idea 提案，包含项目方向和可行性说明"
+        },
+        {
+          "id": "uses-gemini-api",
+          "text": "项目提案中包含 Gemini API 或 Google 技术"
+        },
+        {
+          "id": "covers-all-four-registration-fields",
+          "text": "完整覆盖报名表的 4 个字段：参赛者简介、技术背景、项目提案、为什么适合"
+        },
+        {
+          "id": "addresses-evaluation-criteria",
+          "text": "材料中有意识地对应评判标准（创新性、可行性、实际影响力、演示质量）"
+        },
+        {
+          "id": "medical-or-education-angle",
+          "text": "利用了用户在医疗 AI 或教育 AI 方向的经历"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "我有一份在 LinkedIn 上的资料想转成针对这个岗位的简历，帮我弄一下。\n\n【JD】\nSenior Software Engineer - Backend Infrastructure\nCompany: Stripe (Remote, APAC)\n\nWhat you'll do:\n- Design and build highly reliable distributed systems handling millions of transactions/day\n- Lead technical design and code reviews for your team\n- Collaborate with product and other engineering teams to ship features\n- Mentor junior engineers\n\nWhat we're looking for:\n- 5+ years of backend engineering experience\n- Strong proficiency in Go, Java, or Python\n- Experience with distributed systems, microservices architecture\n- Experience with databases (both SQL and NoSQL)\n- Strong written and verbal English communication\n- Nice to have: fintech/payments experience, experience with Kafka/gRPC\n\n【我的 LinkedIn 资料】\n\nName: Chen Hao | 陈昊\nLocation: Beijing → Open to remote\nHeadline: Backend Engineer @ Meituan | Distributed Systems | Go & Python\n\nAbout:\n美团后端工程师，5年经验，主要做外卖配送系统的后端基础设施，处理高并发场景，有带小团队经验。\n\nExperience:\n- Meituan (2020–present): Senior Backend Engineer\n  主导了配送调度系统的重构，从单体架构迁移到微服务，处理峰值 50万/分钟的订单请求\n  使用 Go + gRPC + Kafka 构建服务间通信，系统可用性从 99.5% 提升到 99.99%\n  带领 4 人小组，负责 code review 和技术方案评审\n  参与设计分布式缓存方案，降低数据库压力 60%\n\n- JD.com (2018–2020): Backend Engineer\n  负责商品库存管理系统，MySQL + Redis 技术栈\n  解决了双11大促期间的超卖问题（分布式锁方案）\n\nEducation: 北京邮电大学，计算机科学，本科，2018年\n\nSkills: Go, Python, Java(基础), gRPC, Kafka, MySQL, Redis, MongoDB, Docker, K8s\n\nLanguages: 普通话（母语），英语（工作级别，托福 95 分）",
+      "expected_output": "处理 LinkedIn 中文资料 + 英文 JD 的跨语言场景，生成英文版简历，完成匹配分析，补充需要确认的量化成果和细节，生成格式规范的英文 Markdown 简历，进行 Self-awareness 分析，给出针对外企岗位的优化建议，最终询问导出格式。",
+      "files": [],
+      "assertions": [
+        {
+          "id": "resume-in-english",
+          "text": "生成的简历主体为英文"
+        },
+        {
+          "id": "has-quantified-metrics",
+          "text": "简历中包含关键量化指标（500K orders/min、99.99% availability、60% 等）"
+        },
+        {
+          "id": "highlights-distributed-systems",
+          "text": "突出了分布式系统经验，如 microservices 重构、gRPC、Kafka"
+        },
+        {
+          "id": "has-self-awareness-analysis",
+          "text": "包含 Self-awareness 分析，指出优势和潜在不足"
+        },
+        {
+          "id": "mentions-5plus-years",
+          "text": "简历中体现了 5 年以上的工作经验"
+        },
+        {
+          "id": "addresses-english-proficiency",
+          "text": "在简历或分析中处理了英语能力"
+        }
+      ]
+    }
+  ]
+}
