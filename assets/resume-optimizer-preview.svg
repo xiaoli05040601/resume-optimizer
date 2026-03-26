@@ -1,0 +1,48 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="28" fill="#F4EFE6"/>
+  <rect x="36" y="36" width="1128" height="648" rx="24" fill="#FFFDF9" stroke="#D9C8AE" stroke-width="2"/>
+  <rect x="72" y="72" width="1056" height="88" rx="18" fill="#1F3A5F"/>
+  <text x="106" y="123" fill="#FFF8EE" font-family="Arial, sans-serif" font-size="34" font-weight="700">Resume Optimizer</text>
+  <text x="514" y="123" fill="#D9E6F2" font-family="Arial, sans-serif" font-size="22">简历优化助手 · JD 匹配 · 模拟评审 · 输出定稿</text>
+
+  <rect x="72" y="188" width="334" height="440" rx="20" fill="#FFF6E9" stroke="#E7D2B6"/>
+  <text x="98" y="228" fill="#8B5A2B" font-family="Arial, sans-serif" font-size="24" font-weight="700">输入材料</text>
+  <text x="98" y="274" fill="#3B332B" font-family="Arial, sans-serif" font-size="20">• 岗位 JD / 活动要求</text>
+  <text x="98" y="312" fill="#3B332B" font-family="Arial, sans-serif" font-size="20">• 旧简历 / LinkedIn</text>
+  <text x="98" y="350" fill="#3B332B" font-family="Arial, sans-serif" font-size="20">• 项目经历 / 成果数字</text>
+  <text x="98" y="388" fill="#3B332B" font-family="Arial, sans-serif" font-size="20">• 补充问题与背景说明</text>
+
+  <rect x="98" y="430" width="282" height="170" rx="16" fill="#FFFFFF" stroke="#E7D2B6"/>
+  <text x="118" y="466" fill="#5D4C3A" font-family="Arial, sans-serif" font-size="18" font-weight="700">不是直接套模板</text>
+  <text x="118" y="500" fill="#5D4C3A" font-family="Arial, sans-serif" font-size="18">而是先判断：</text>
+  <text x="118" y="532" fill="#5D4C3A" font-family="Arial, sans-serif" font-size="18">这份 JD 真正重视什么？</text>
+  <text x="118" y="564" fill="#5D4C3A" font-family="Arial, sans-serif" font-size="18">你的优势该怎么讲？</text>
+
+  <rect x="434" y="188" width="334" height="440" rx="20" fill="#EFF6F8" stroke="#B8D2DA"/>
+  <text x="460" y="228" fill="#205466" font-family="Arial, sans-serif" font-size="24" font-weight="700">分析过程</text>
+  <text x="460" y="274" fill="#2C3940" font-family="Arial, sans-serif" font-size="20">1. 提取 must-have / 加分项</text>
+  <text x="460" y="312" fill="#2C3940" font-family="Arial, sans-serif" font-size="20">2. 映射已有经历与证据</text>
+  <text x="460" y="350" fill="#2C3940" font-family="Arial, sans-serif" font-size="20">3. 标出缺口与追问点</text>
+  <text x="460" y="388" fill="#2C3940" font-family="Arial, sans-serif" font-size="20">4. 生成初稿与改写建议</text>
+  <text x="460" y="426" fill="#2C3940" font-family="Arial, sans-serif" font-size="20">5. 模拟 HR / 用人经理评价</text>
+
+  <rect x="460" y="462" width="282" height="138" rx="16" fill="#FFFFFF" stroke="#B8D2DA"/>
+  <text x="480" y="496" fill="#205466" font-family="Arial, sans-serif" font-size="18" font-weight="700">匹配分析示意</text>
+  <text x="480" y="530" fill="#2C3940" font-family="Arial, sans-serif" font-size="17">Python 经验        高匹配</text>
+  <text x="480" y="558" fill="#2C3940" font-family="Arial, sans-serif" font-size="17">团队带人经验      待补充</text>
+  <text x="480" y="586" fill="#2C3940" font-family="Arial, sans-serif" font-size="17">英语表达能力      可加强</text>
+
+  <rect x="796" y="188" width="332" height="440" rx="20" fill="#F2F6EC" stroke="#C9D8B3"/>
+  <text x="822" y="228" fill="#47652F" font-family="Arial, sans-serif" font-size="24" font-weight="700">输出结果</text>
+  <text x="822" y="274" fill="#33402A" font-family="Arial, sans-serif" font-size="20">• 定制简历</text>
+  <text x="822" y="312" fill="#33402A" font-family="Arial, sans-serif" font-size="20">• 报名材料 / Cover Letter</text>
+  <text x="822" y="350" fill="#33402A" font-family="Arial, sans-serif" font-size="20">• 模拟招聘方评价</text>
+  <text x="822" y="388" fill="#33402A" font-family="Arial, sans-serif" font-size="20">• 面试准备清单</text>
+  <text x="822" y="426" fill="#33402A" font-family="Arial, sans-serif" font-size="20">• 导出格式建议</text>
+
+  <rect x="822" y="462" width="280" height="138" rx="16" fill="#FFFFFF" stroke="#C9D8B3"/>
+  <text x="842" y="496" fill="#47652F" font-family="Arial, sans-serif" font-size="18" font-weight="700">适合的使用场景</text>
+  <text x="842" y="530" fill="#33402A" font-family="Arial, sans-serif" font-size="17">岗位投递</text>
+  <text x="842" y="558" fill="#33402A" font-family="Arial, sans-serif" font-size="17">比赛 / 黑客松报名</text>
+  <text x="842" y="586" fill="#33402A" font-family="Arial, sans-serif" font-size="17">LinkedIn 转简历</text>
+</svg>

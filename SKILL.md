@@ -1,5 +1,5 @@
 ---
-name: super-resume
+name: resume-optimizer
 description: >
   智能简历定制 skill，专为求职投递和活动/比赛报名设计。当用户提供 JD（职位描述）、
   活动要求、招募信息，并配合个人简历材料（文字、PDF、LinkedIn/脉脉截图等），
@@ -11,7 +11,7 @@ description: >
   或者同时粘贴了 JD 和个人背景信息时，均应主动使用本 skill。
 ---
 
-# Super Resume
+# Resume Optimizer | 简历优化助手
 
 本 skill 用于针对具体 JD 或活动要求，生成更匹配的简历与报名材料，避免“一份简历投所有岗位”的低命中率问题。
 
