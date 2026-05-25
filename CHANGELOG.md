@@ -4,6 +4,20 @@ All notable changes to this project will be documented in this file.
 
 The format loosely follows Keep a Changelog and uses semantic-version style release tags.
 
+## [0.2.0] - 2026-05-25
+
+### Added
+
+- AI-era hiring traits framework: curiosity, reliability, fact discipline, diverse thinking, uncertainty tolerance, and low-ego self-drive
+- evidence-first resume diagnosis table for the six traits
+- `agents/openai.yaml` UI metadata for compatible hosts
+- example prompt for AI/startup internship resume optimization
+
+### Changed
+
+- upgraded the main skill workflow from generic JD tailoring to trait-based evidence extraction and rewriting
+- expanded README and promotion copy to explain the six-trait positioning
+
 ## [0.1.0] - 2026-03-26
 
 ### Added

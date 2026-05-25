@@ -1,0 +1,7 @@
+interface:
+  display_name: "Resume Optimizer"
+  short_description: "用六项 AI 时代招聘特质优化简历"
+  default_prompt: "Use $resume-optimizer to optimize my resume against a JD and highlight curiosity, reliability, fact discipline, diverse thinking, uncertainty tolerance, and low-ego self-drive."
+
+policy:
+  allow_implicit_invocation: true

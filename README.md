@@ -4,6 +4,8 @@ Resume Optimizer 是一个面向 AI 助手的简历优化与求职材料定制 s
 
 它不是“套模板写一份简历”，而是先读懂岗位 JD 或活动要求，再结合候选人的原始材料，输出更贴合场景的简历、报名文案、模拟评审与修改建议。
 
+新版加入了一套 AI 时代招聘特质框架：好奇心、靠谱、有事实洁癖、多元化思维、能忍受不确定性、低 ego 高自驱。它会把这些特质翻译成简历里的可信证据，而不是堆成空泛自夸。
+
 ![Resume Optimizer Preview](./assets/resume-optimizer-preview.svg)
 
 ## 中文介绍
@@ -16,8 +18,22 @@ Resume Optimizer 是一个面向 AI 助手的简历优化与求职材料定制 s
 - 你的经历里哪些点最该放大
 - 哪些要求你没有正面回应
 - 面试官为什么会在 30 秒内划走
+- 你的材料有没有证明“好奇、靠谱、事实洁癖、自驱”等底层特质
 
 `resume-optimizer` 的目标，是把“写简历”变成一套更接近真实求职决策的工作流。
+
+### 六项 AI 时代招聘特质
+
+这套 skill 会把六个看似抽象的词拆成可写进简历的证据：
+
+| 特质 | 简历里应该证明什么 |
+| --- | --- |
+| 好奇心 | 主动探索新工具、新领域、新问题，并产出作品或方法 |
+| 靠谱 | 承诺有回音，风险提前同步，交付有闭环 |
+| 有事实洁癖 | 会核验来源、数据、引用、AI 输出，对传播的信息负责 |
+| 多元化思维 | 能跨领域组合知识，形成新角度或新方案 |
+| 能忍受不确定性 | 在信息不完整、方向变化、工具快速迭代中继续行动 |
+| 低 ego 高自驱 | 主动推进，同时能接受反馈、承认错误、修正方案 |
 
 ### 适用场景
 
@@ -30,7 +46,7 @@ Resume Optimizer 是一个面向 AI 助手的简历优化与求职材料定制 s
 
 1. 解析 JD / 活动要求，提取 must-have、加分项和关键词
 2. 解析候选人材料，抽取经历、项目、技能和量化成果
-3. 输出匹配分析，识别信息缺口并引导补充
+3. 用六项特质框架做证据诊断，识别信息缺口并引导补充
 4. 生成结构化 Markdown 简历或报名材料
 5. 做 self-awareness 分析与模拟招聘方 / 评委评价
 6. 给出可直接落地的改写建议
@@ -50,6 +66,8 @@ Resume Optimizer 是一个面向 AI 助手的简历优化与求职材料定制 s
 ```text
 resume-optimizer/
 ├── SKILL.md
+├── agents/
+│   └── openai.yaml
 ├── promotion.md
 ├── CHANGELOG.md
 ├── CONTRIBUTING.md
@@ -95,6 +113,7 @@ Instead of filling a generic template, it first analyzes the job description or 
 ### Good Fit For
 
 - tailoring a resume to a specific job description
+- highlighting AI-era hiring traits with concrete evidence
 - preparing hackathon or competition applications
 - converting messy raw background notes into structured materials
 - generating interview prep prompts based on gaps and strengths
@@ -105,6 +124,7 @@ The skill is designed to prioritize:
 
 - honesty over fabrication
 - specificity over generic wording
+- evidence for curiosity, reliability, fact discipline, diverse thinking, uncertainty tolerance, and low-ego self-drive
 - ATS-friendly language without keyword stuffing
 - user control at every important decision point
 
